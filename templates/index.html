@@ -1,0 +1,36 @@
+<!--	
+		Created by Brendon Albertson
+		albertsonbrendon@gmail.com
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Sentence Chunker</title>
+	<meta name="description" content="">
+	<meta name="author" content="Brendon Albertson">
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+	
+<body>
+
+	<h1 id='title'>Sentence Chunker - Python NLTK</h1>
+
+	<form action="/chunksentences" method="post">
+
+		<label for="sentence-input"> Enter a sentence: </label>
+		<input id='sentence-input' type="text" name="inputtext"/>
+
+		<input type="submit" value="Get chunks"/>
+
+	</form>
+
+</body>

@@ -1,0 +1,48 @@
+html, body {
+    font-size: 40px;      
+    margin:0; /* remove default margin */
+    padding:0; /* remove default padding */
+    width:100%; /* take full browser width */
+    height:100%; /* take full browser height*/
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	background-color: #69c4db;
+}
+
+
+table {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+
+h1 {
+	font-size: 36px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #5074aa;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #5074aa;
+}
+
+
+
+
+
+
+
+/* desktop screen */
+@media only screen and (min-width: 800px)  {   
+
+
+
+}
+
+/* mobile screen */
+@media only screen and (max-width: 800px) {
+
